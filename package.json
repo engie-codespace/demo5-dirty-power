@@ -2,7 +2,7 @@
   "name": "green-power-website",
   "version": "0.1.2",
   "private": true,
-  "homepage": "https://new-york-thunder.github.io/green-power-website",
+  "homepage": "https://engie-codespace.github.io/demo5-poweracme/",
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@testing-library/dom": "^10.4.0",
