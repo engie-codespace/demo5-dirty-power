@@ -45,6 +45,9 @@ const HomePage: React.FC = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-4 text-center">Energy Consultation</h3>
+              <div className="flex justify-center mb-4">
+                <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=facearea&w=160&q=80&facepad=2" alt="Cow" className="rounded-full w-24 h-24 object-cover border-4 border-pink-200 shadow" />
+              </div>
               <p className="text-gray-600 text-center mb-6">
                 Our experts help you optimize your energy consumption and reduce your bills.
               </p>
