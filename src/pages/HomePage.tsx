@@ -11,14 +11,14 @@ const HomePage: React.FC = () => {
       <section className="py-16 bg-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-dark">Our Services</h2>
+            <h2 className="text-3xl font-bold text-dark">Pink Power</h2>
             <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
               Discover our complete range of energy services tailored to your needs
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-md">
+            <div className="bg-pink p-8 rounded-lg shadow-md">
               <div className="h-14 w-14 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto">
                 <svg className="h-8 w-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -35,7 +35,7 @@ const HomePage: React.FC = () => {
               </div>
             </div>
             
-            <div className="bg-white p-8 rounded-lg shadow-md">
+            <div className="bg-pink p-8 rounded-lg shadow-md">
               <div className="h-14 w-14 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto">
                 <svg className="h-8 w-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
@@ -52,7 +52,7 @@ const HomePage: React.FC = () => {
               </div>
             </div>
             
-            <div className="bg-white p-8 rounded-lg shadow-md">
+            <div className="bg-pink p-8 rounded-lg shadow-md">
               <div className="h-14 w-14 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto">
                 <svg className="h-8 w-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -76,7 +76,7 @@ const HomePage: React.FC = () => {
       <section className="py-16 bg-primary text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold">Our Key Figures</h2>
+            <h2 className="text-3xl font-bold">Pink Power</h2>
             <p className="mt-4 text-lg text-gray-200 max-w-3xl mx-auto">
               DirtyPower in numbers
             </p>
@@ -107,14 +107,14 @@ const HomePage: React.FC = () => {
       <section className="py-16 bg-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-dark">What Our Customers Say</h2>
+            <h2 className="text-3xl font-bold text-dark">Pink Power</h2>
             <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
               Discover testimonials from our satisfied customers
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="bg-pink p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
                 <div className="h-12 w-12 rounded-full bg-gray-300 mr-4"></div>
                 <div>
@@ -130,7 +130,7 @@ const HomePage: React.FC = () => {
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="bg-pink p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
                 <div className="h-12 w-12 rounded-full bg-gray-300 mr-4"></div>
                 <div>
@@ -146,7 +146,7 @@ const HomePage: React.FC = () => {
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="bg-pink p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
                 <div className="h-12 w-12 rounded-full bg-gray-300 mr-4"></div>
                 <div>
@@ -168,14 +168,14 @@ const HomePage: React.FC = () => {
       {/* Call to Action */}
       <section className="py-16 bg-secondary text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to switch energy suppliers?</h2>
+          <h2 className="text-3xl font-bold mb-4">Pink Power</h2>
           <p className="text-lg mb-8 max-w-3xl mx-auto">
             Join DirtyPower today and benefit from competitive rates and quality customer service.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link 
               to="/compare" 
-              className="bg-white text-secondary font-medium px-6 py-3 rounded-md hover:bg-gray-100 transition-colors"
+              className="bg-pink text-secondary font-medium px-6 py-3 rounded-md hover:bg-gray-100 transition-colors"
             >
               Compare our offers
             </Link>
