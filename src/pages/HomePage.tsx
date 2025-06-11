@@ -24,7 +24,10 @@ const HomePage: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-center">Energy Supply</h3>
+              <h3 className="text-xl font-semibold mb-4 text-center">Nathalie</h3>
+              <div className="flex justify-center mb-4">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=facearea&w=160&q=80&facepad=2" alt="Smiling farmer woman" className="rounded-full w-24 h-24 object-cover border-4 border-pink-200 shadow" />
+              </div>
               <p className="text-gray-600 text-center mb-6">
                 We offer reliable and transparent energy contracts for both residential and business customers.
               </p>
