@@ -65,6 +65,9 @@ const HomePage: React.FC = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-4 text-center">Customer Support</h3>
+              <div className="flex justify-center mb-4">
+                <img src="/src/PXL_20250610_220045878.jpg" alt="Customer Support" className="rounded-full w-24 h-24 object-cover border-4 border-pink-200 shadow" />
+              </div>
               <p className="text-gray-600 text-center mb-6">
                 A dedicated customer service team available to answer all your questions and solve your problems.
               </p>
