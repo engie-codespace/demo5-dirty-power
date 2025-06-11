@@ -26,7 +26,7 @@ const HomePage: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-4 text-center">Nathalie</h3>
               <div className="flex justify-center mb-4">
-                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=facearea&w=160&q=80&facepad=2" alt="Smiling farmer woman" className="rounded-full w-24 h-24 object-cover border-4 border-pink-200 shadow" />
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=facearea&w=160&q=80&facepad=2" alt="Smiling farmer woman" className="rounded-full w-40 h-40 object-cover border-4 border-pink-200 shadow" />
               </div>
               <p className="text-gray-600 text-center mb-6">
                 We offer reliable and transparent energy contracts for both residential and business customers.
@@ -44,9 +44,9 @@ const HomePage: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-center">Energy Consultation</h3>
+              <h3 className="text-xl font-semibold mb-4 text-center">Josette</h3>
               <div className="flex justify-center mb-4">
-                <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=facearea&w=160&q=80&facepad=2" alt="Cow" className="rounded-full w-24 h-24 object-cover border-4 border-pink-200 shadow" />
+                <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=facearea&w=160&q=80&facepad=2" alt="Cow" className="rounded-full w-40 h-40 object-cover border-4 border-pink-200 shadow" />
               </div>
               <p className="text-gray-600 text-center mb-6">
                 Our experts help you optimize your energy consumption and reduce your bills.
@@ -66,7 +66,7 @@ const HomePage: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-4 text-center">Customer Support</h3>
               <div className="flex justify-center mb-4">
-                <img src="/src/PXL_20250610_220045878.jpg" alt="Customer Support" className="rounded-full w-24 h-24 object-cover border-4 border-pink-200 shadow" />
+                <img src="/PXL_20250610_220045878.jpg" alt="Customer Support" className="rounded-full w-40 h-40 object-cover border-4 border-pink-200 shadow" />
               </div>
               <p className="text-gray-600 text-center mb-6">
                 A dedicated customer service team available to answer all your questions and solve your problems.
