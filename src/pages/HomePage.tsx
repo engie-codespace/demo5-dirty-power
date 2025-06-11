@@ -66,7 +66,7 @@ const HomePage: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-4 text-center">Customer Support</h3>
               <div className="flex justify-center mb-4">
-                <img src="/offshore-windmill.jpg" alt="Offshore windmill" className="rounded-full w-40 h-40 object-cover border-4 border-pink-200 shadow" />
+                <img src="/happy-team.jpg" alt="Three happy people at work" className="rounded-full w-40 h-40 object-cover border-4 border-pink-200 shadow" />
               </div>
               <p className="text-gray-600 text-center mb-6">
                 A dedicated customer service team available to answer all your questions and solve your problems.
