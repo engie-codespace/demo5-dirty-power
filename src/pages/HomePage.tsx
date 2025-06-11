@@ -4,7 +4,7 @@ import Hero from '../components/Hero';
 
 const HomePage: React.FC = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: 'pink' }}>
       <Hero />
       
       {/* Our Services Section */}
