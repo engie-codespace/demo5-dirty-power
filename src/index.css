@@ -9,11 +9,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: pink;
+  background-color: #ffe4f0; /* light pink */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-  color: pink;
+  color: #d72660; /* deep pink */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #d72660; /* deep pink for headings */
+}
+
+a, .text-primary, .text-secondary {
+  color: #d72660 !important; /* deep pink for links and primary text */
+}
+
+.bg-pink {
+  background-color: #ffd1ec !important; /* pastel pink for cards/sections */
+}
+
+.bg-primary, .bg-secondary, .bg-accent {
+  background-color: #d72660 !important; /* deep pink for accents */
+}
+
+.text-white {
+  color: #fff !important;
 }
