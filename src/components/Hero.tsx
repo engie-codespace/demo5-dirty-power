@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
+import { powerData } from './powerData';
 
 const Hero: React.FC = () => {
   return (
@@ -34,17 +36,27 @@ const Hero: React.FC = () => {
             <div className="relative w-full h-80">
               <div className="absolute inset-0 bg-white bg-opacity-20 rounded-lg transform rotate-3"></div>
               <div className="absolute inset-0 bg-white bg-opacity-20 rounded-lg transform -rotate-3"></div>
-              <div className="absolute inset-0 bg-white bg-opacity-90 rounded-lg shadow-lg flex items-center justify-center p-8">
-                <div className="text-center">
-                  <h3 className="text-2xl font-bold text-primary mb-4">Calculate your savings</h3>
-                  <p className="text-gray-600 mb-6">Estimate how much you could save by choosing our energy offers</p>
-                  <Link 
-                    to="/compare" 
-                    className="inline-block bg-primary text-white font-medium px-6 py-2 rounded-md hover:bg-secondary transition-colors"
-                  >
-                    Compare offers
-                  </Link>
+              <div className="absolute inset-0 bg-white bg-opacity-90 rounded-lg shadow-lg flex flex-col items-center justify-center p-8">
+                <div className="text-center mb-4">
+                  <h3 className="text-2xl font-bold text-primary mb-2">Calculate your local footprint</h3>
                 </div>
+                <div className="w-full h-40 mb-4">
+                  <ResponsiveContainer width="100%" height="100%">
+                    <LineChart data={powerData} margin={{ top: 10, right: 20, left: 0, bottom: 0 }}>
+                      <CartesianGrid strokeDasharray="3 3" />
+                      <XAxis dataKey="month" />
+                      <YAxis />
+                      <Tooltip />
+                      <Line type="monotone" dataKey="consumption" stroke="#e75480" strokeWidth={3} dot={{ r: 4 }} />
+                    </LineChart>
+                  </ResponsiveContainer>
+                </div>
+                <Link 
+                  to="/compare" 
+                  className="inline-block bg-primary text-white font-medium px-6 py-2 rounded-md hover:bg-secondary transition-colors"
+                >
+                  Compare offers
+                </Link>
               </div>
             </div>
           </div>
